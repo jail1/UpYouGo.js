@@ -1,7 +1,5 @@
 # Upyougo.js
-`Up.js` lives entirely within the js realm, which makes things fairly simple to use.
 
-You'll need to create a new instance of Up, using new Up, and pass it some audio settings.
 ```html
 <script>
 // up script included on the page, already.
@@ -18,7 +16,6 @@ up.elevate();
 </script>
 ```
 
-You can also add an "element" option, clicking this element will invoke the "Scroll to top" functionality, we all love and crave.
 ```html
 <div class="up-button">Back to Top</div>
 
@@ -35,7 +32,6 @@ window.onload = function() {
 </script>
 ```
 
-If you're really serious (boring), you don't have to use audio... and can also set a fixed time to scroll to the top
 ```html
 <div class="up-button">Back to Top</div>
 
